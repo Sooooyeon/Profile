@@ -1,12 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Menu from './components/Menu';
+import { Route, Routes } from 'react-router-dom';
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div>
-      프로젝트 생성
-    </div>
+    <>
+      <header>
+        <Menu></Menu>
+      </header>
+      <Routes>
+        <Route path="/" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 
