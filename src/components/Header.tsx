@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../public/profile-logo.png'
 
 type Props = {}
 
 function Header({}: Props) {
   return (
     <div className='w-screen bg-neutral-900 h-28 fixed top-0 left-1/2 transform -translate-x-1/2'>
-      <header className='max-w-6xl container mx-auto h-28  flex justify-between items-center'>
+      <header className='max-w-6xl container mx-auto h-28  flex justify-between items-center gap-16'>
         
           <img className='w-40' src={process.env.PUBLIC_URL + "profile-logo.png"} alt="Developer SooyeonJang" />
           <nav>
