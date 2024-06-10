@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className='max-w-6xl container mx-auto'>
+    <div className='bg-neutral-900'>
       <Header></Header>
       <Routes>
         <Route path="/" element={<AboutMe />} />

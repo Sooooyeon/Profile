@@ -2,9 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-background-color: #FFF8DF;
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'WavvePADO-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/WavvePADO-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@layer base {
+  body {
+    font-family: 'Pretendard-Regular', sans-serif;
+    font-size: 16px;
+    background-color: #171717;
+    color: white;
+  }
+  
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
