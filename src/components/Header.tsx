@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -10,10 +9,11 @@ function Header({}: Props) {
         
           <img className='w-32' src={process.env.PUBLIC_URL + "profile-logo.png"} alt="Developer SooyeonJang" />
           <nav>
-              <ul className='flex space-x-16'>
-                <Link to="/" className='hover:text-amber-400 hover:scale-105 hover:transition-all'>ABOUT ME</Link>
-                <Link to="/projects" className='hover:text-amber-400 hover:scale-105 hover:transition-all'>PROJECTS</Link>
-                <Link to="/contact" className='hover:text-amber-400 hover:scale-105 hover:transition-all'>CONTACT</Link>
+              <ul className='flex space-x-8'>
+                <a href="#about" className='hover:text-amber-400 hover:scale-105 hover:transition-all'>ABOUT ME</a>
+                <a href="#skills" className='hover:text-amber-400 hover:scale-105 hover:transition-all'>SKILLS</a>
+                <a href="#project" className='hover:text-amber-400 hover:scale-105 hover:transition-all'>PROJECTS</a>
+                <a href="#experience" className='hover:text-amber-400 hover:scale-105 hover:transition-all'>EXPERIENCE</a>
               </ul>
           </nav>
       </header>
