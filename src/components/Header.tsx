@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/img/profile-logo.png'
 import { useLocation, useNavigate } from 'react-router-dom'
 
 function Header() {
@@ -14,7 +15,7 @@ const navigate = useNavigate();
           {
             pathname !== '/project'? 
             <>
-              <a href='/'><img className='w-32' src={process.env.PUBLIC_URL + "profile-logo.png"} alt="Developer SooyeonJang" /></a>
+              <a href='/'><img className='w-32' src={logo} alt="Developer SooyeonJang" /></a>
               <nav>
                 <ul className='flex space-x-8'>
                   <a href="#about" className='hover:text-amber-400 hover:scale-105 hover:transition-all'>ABOUT ME</a>
@@ -27,7 +28,7 @@ const navigate = useNavigate();
           :
             <>
               <button onClick={()=> navigate(-1)} className='text-xl p-3 hover:text-amber-400 hover:scale-105 hover:transition-all'>← 이전페이지로</button>
-              <a href='/'><img className='w-32' src={process.env.PUBLIC_URL + "profile-logo.png"} alt="Developer SooyeonJang" /></a>
+              <a href='/'><img className='w-32' src={logo} alt="Developer SooyeonJang" /></a>
             </>
           }
           
