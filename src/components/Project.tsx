@@ -44,7 +44,7 @@ function Project() {
         <div className='text-5xl leading-4 mt-4 text-gray-200'>.</div>
         <div className='text-5xl leading-4 text-gray-300'>.</div>
         <div className='text-5xl leading-4 text-gray-400'>.</div>
-        <Link to='/project' className='m-auto my-0 px-4 py-2 mt-4 bg-neutral-900 rounded-full hover:bg-amber-400 hover:text-neutral-900 hover:transition-all hover:duration-200 hover:font-bold'><span className='tracking-wider text-lg'>More</span></Link>
+        <Link to='/project'> <button  className='m-auto my-0 px-4 py-2 mt-4 bg-neutral-900 rounded-full hover:bg-amber-400 hover:text-neutral-900 hover:transition-all hover:duration-200 hover:font-bold'><span className='tracking-wider text-lg'>More</span></button></Link>
       </div>
     </div>
   )
