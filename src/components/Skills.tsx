@@ -21,11 +21,11 @@ function Skills() {
           <div className='w-fit mt-3 p-3 bg-indigo-500 font-semibold text-lg rounded-2xl mr-4'>express</div>
           <div className='w-fit mt-3 p-3 bg-indigo-500 font-semibold text-lg rounded-2xl mr-4'>MongoDB</div>
           <div className='w-fit mt-3 p-3 bg-indigo-500 font-semibold text-lg rounded-2xl mr-4'>MySQL</div>
-          <span className='w-fit mt-3 p-3 bg-teal-500 font-semibold text-lg rounded-2xl mr-4'>GIT</span>
-          <span className='w-fit mt-3 p-3 bg-teal-500 font-semibold text-lg rounded-2xl mr-4'>Slack</span>
-          <span className='w-fit mt-3 p-3 bg-teal-500 font-semibold text-lg rounded-2xl mr-4'>Discord</span>
-          <span className='w-fit mt-3 p-3 bg-teal-500 font-semibold text-lg rounded-2xl mr-4'>Figma</span>
-          <span className='w-fit mt-3 p-3 bg-teal-500 font-semibold text-lg rounded-2xl mr-4'>Notion</span>
+          <span className='w-fit mt-3 p-3 bg-teal-600 font-semibold text-lg rounded-2xl mr-4'>GIT</span>
+          <span className='w-fit mt-3 p-3 bg-teal-600 font-semibold text-lg rounded-2xl mr-4'>Slack</span>
+          <span className='w-fit mt-3 p-3 bg-teal-600 font-semibold text-lg rounded-2xl mr-4'>Discord</span>
+          <span className='w-fit mt-3 p-3 bg-teal-600 font-semibold text-lg rounded-2xl mr-4'>Figma</span>
+          <span className='w-fit mt-3 p-3 bg-teal-600 font-semibold text-lg rounded-2xl mr-4'>Notion</span>
           </div>
       </div>
     </div>
