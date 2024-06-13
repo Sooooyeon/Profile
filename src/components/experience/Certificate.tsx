@@ -24,7 +24,7 @@ function Certificate() {
         item.id < 5 ?
         <div key={item.id} className='flex gap-4 items-center mb-4'>
           <h5 className='text-lg'>{item.name}</h5>
-          <p className='text-sm'>{item.date}<span className='ml-3'>{item.organization}</span></p>
+          <p className='text-sm'>{item.date}<span className='ml-2'>{item.organization}</span></p>
         </div>
         :
         null

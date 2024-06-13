@@ -5,6 +5,8 @@ import Skills from '../components/Skills'
 import Header from '../components/Header'
 import Project from '../components/Project'
 import Experience from '../components/Experience'
+import Footer from '../components/Footer'
+import MoveBtn from '../components/MoveBtn'
 
 function Home() {
   return (
@@ -16,6 +18,8 @@ function Home() {
         <Skills/>
         <Project/>
         <Experience/>
+        <Footer/>
+        <MoveBtn/>
       </div>
     </Fragment>
   )

@@ -8,8 +8,8 @@ const navigate = useNavigate();
 
 
   return (
-    <div className='w-screen bg-neutral-900 h-24 fixed top-0 left-1/2 transform -translate-x-1/2 px-4 border-b-2 border-gray-700'>
-      <header className='max-w-6xl container mx-auto h-24  flex justify-between items-center gap-16'>
+    <header className='w-screen bg-neutral-900 h-24 fixed top-0 left-1/2 transform -translate-x-1/2 px-4 border-b-2 border-gray-700'>
+      <div className='max-w-6xl container mx-auto h-24  flex justify-between items-center gap-16'>
         
           
           {
@@ -33,8 +33,8 @@ const navigate = useNavigate();
           }
           
           
-      </header>
-    </div>
+      </div>
+    </header>
   )
 }
 
