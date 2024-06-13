@@ -12,7 +12,7 @@ function Home() {
   return (
     <Fragment>
       <Header/>
-      <div className='max-w-5xl container mx-auto py-5 mt-48 flex flex-col'>
+      <div className='max-w-5xl container mx-auto pt-5 mt-48 flex flex-col'>
         <MyInfo/>
         <AboutMe/>
         <Skills/>

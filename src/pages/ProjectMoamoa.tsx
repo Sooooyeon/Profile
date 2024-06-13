@@ -2,12 +2,16 @@ import React, { Fragment } from 'react'
 import Header from '../components/Header'
 import moamoa from '../assets/img/moamoa.png'
 import github from '../assets/img/github.png'
+import Footer from '../components/Footer';
 
 function ProjectMoamoa() {
+
+  window.scrollTo(0,0);
+
   return (
     <Fragment>
       <Header/>
-      <div className='max-w-5xl container mx-auto py-5 mt-40 flex flex-col'>
+      <div className='max-w-5xl container mx-auto py-5 mt-36 flex flex-col'>
         <div className='flex flex-col items-center'>
           <h2 className='pb-2.5 mb-10 font-extrabold border-b-2 border-indigo-400 text-lg'>[팀프로젝트]<span className='text-4xl pl-3'>MOAMOA</span></h2>
           <div className='flex gap-10 text-lg items-start'>
@@ -46,6 +50,7 @@ function ProjectMoamoa() {
           </div>
         </div>
       </div>
+      <Footer/>
     </Fragment>
   )
 }
