@@ -13,7 +13,7 @@ const navigate = useNavigate();
         
           
           {
-            pathname !== '/project'? 
+            pathname === '/'? 
             <>
               <a href='/'><img className='w-32' src={logo} alt="Developer SooyeonJang" /></a>
               <nav>
