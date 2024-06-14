@@ -19,7 +19,6 @@ function Work() {
   return (
     <div className='border-l-4 border-indigo-400 pl-5'>
       {works.map((item)=>(
-        item.id < 5 ?
         <div key={item.id}>
           <h5 className='text-lg'>{item.name}</h5>
           <p className='mb-2 text-sm'>({item.period})</p>
@@ -27,8 +26,6 @@ function Work() {
             - {item.desc[1]}<br/>
             - {item.desc[2]}</p>
         </div>
-        :
-        null
       ))}
     </div>
   )
