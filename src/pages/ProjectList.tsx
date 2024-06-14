@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import Header from '../components/Header'
 import Project from '../components/Project'
 import MoveBtn from '../components/MoveBtn';
+import Footer from '../components/Footer';
 
 function ProjectList() {
   
@@ -14,6 +15,7 @@ function ProjectList() {
         <Project></Project>
         <MoveBtn/>
       </div>
+        <Footer/>
     </Fragment>
   )
 }

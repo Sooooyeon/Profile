@@ -15,8 +15,6 @@ function Education() {
   
   const educations:EducationItem[] = (education as EducationData).education;
 
-  console.log(educations);
-
   return (
     <div className='border-l-4 border-indigo-400 pl-5'>
       {educations.map((item)=>(

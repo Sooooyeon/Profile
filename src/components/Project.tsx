@@ -1,15 +1,10 @@
 import React from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import moamoa from '../assets/img/moamoa.png'
-import obstacleFree from '../assets/img/obstacle-free.png'
-import cashBook from '../assets/img/cashbook.png'
-import pomodoro from '../assets/img/pomodoro.png'
 import project from '../assets/data/project.json';
 
 
 function Project() {
   const {pathname} = useLocation();
-  console.log(pathname)
   const navigate = useNavigate();
 
     type ProjectItem = {
@@ -25,12 +20,6 @@ function Project() {
   
   const projects:ProjectItem[] = (project as ProjectData).project;
 
-  console.log(projects);
-  console.log(projects[0].id);
-  console.log(projects[1].id);
-  console.log(projects[3].id);
-
-
   return (
     <div className='max-w-5xl container mx-auto pt-28 tracking-wide' id='project'>
       <h3 className='py-10 text-3xl text-center'>PROJECTS</h3>
@@ -39,7 +28,7 @@ function Project() {
             { 
               projects.map((item, index)=>(
                 (pathname === '/' && index < 4)?
-                <div onClick={()=>navigate(`/project/${item.name}`)} className='bg-white rounded-xl text-neutral-900 flex flex-col items-center justify-between p-3 hover:border-4 hover: border-gray-700 hover:outline hover: outline-amber-400 hover:outline-4 hover:transition-all hover:duration-200'>
+                <div onClick={()=>navigate(`/project/${item.name}`)} key={item.id} className='bg-white rounded-xl text-neutral-900 flex flex-col items-center justify-between p-3 hover:border-4 hover: border-gray-700 hover:outline hover: outline-amber-400 hover:outline-4 hover:transition-all hover:duration-200'>
                 <img className=' mb-3' src={process.env.PUBLIC_URL + item.img} alt="moamoa" />
                 <div>
                   <h4 className='text-xl'>{item.name}</h4>
@@ -53,7 +42,7 @@ function Project() {
             {
               projects.map((item)=>(
                 pathname === '/project' ?
-                <div onClick={()=>navigate(`/project/${item.name}`)} className='bg-white rounded-xl text-neutral-900 flex flex-col items-center justify-between p-3 hover:border-4 hover: border-gray-700 hover:outline hover: outline-amber-400 hover:outline-4 hover:transition-all hover:duration-200'>
+                <div onClick={()=>navigate(`/project/${item.name}`)} key={item.id} className='bg-white rounded-xl text-neutral-900 flex flex-col items-center justify-between p-3 hover:border-4 hover: border-gray-700 hover:outline hover: outline-amber-400 hover:outline-4 hover:transition-all hover:duration-200'>
                 <img className=' mb-3' src={process.env.PUBLIC_URL + item.img} alt="moamoa" />
                 <div>
                   <h4 className='text-xl'>{item.name}</h4>

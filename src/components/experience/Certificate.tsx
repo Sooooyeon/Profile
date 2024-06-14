@@ -16,8 +16,6 @@ function Certificate() {
   
   const certificates:CertificateItem[] = (certificate as CertificateData).certificate;
 
-  console.log(certificates);
-
   return (
     <div className='border-l-4 border-indigo-400 pl-5'>
       {certificates.map((item)=>(
