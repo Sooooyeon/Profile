@@ -8,30 +8,36 @@
     },
     {
       "id": 2,
+      "name": "Resumates",
+      "desc": "이력서 템플릿으로 이력서를 작성할 수 있는 서비스",
+      "img" : "/resumates.png"
+    },
+    {
+      "id": 3,
       "name": "Obstacle-Free",
       "desc": "관광지의 편의시설 정보를 확인할 수 있는 서비스",
       "img" : "/obstacle-free.png"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "CashBook",
       "desc": "가계부 응용프로그램",
       "img" : "/cashbook.png"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "POMOODORO",
       "desc": "뽀모도로 타이머를 적용한 TodoList",
       "img" : "/pomodoro.png"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Fruits-Fruits",
       "desc": "HTML5, javascript를 사용한 미니게임",
       "img" : "/fruits-fuits.png"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Moomyung",
       "desc": "익명일기 서비스",
       "img" : "/moomyung.png"

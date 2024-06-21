@@ -29,7 +29,7 @@ function Project() {
               projects.map((item, index)=>(
                 (pathname === '/' && index < 4)?
                 <div onClick={()=>navigate(`/project/${item.name}`)} key={item.id} className='bg-white rounded-xl text-neutral-900 flex flex-col items-center justify-between p-3 hover:border-4 hover: border-gray-700 hover:outline hover: outline-amber-400 hover:outline-4 hover:transition-all hover:duration-200'>
-                <img className=' mb-3' src={process.env.PUBLIC_URL + item.img} alt="moamoa" />
+                <img className='border-2 border-gray-200 mb-3' src={process.env.PUBLIC_URL + item.img} alt="project" />
                 <div>
                   <h4 className='text-xl'>{item.name}</h4>
                   <p>{item.desc}</p>
@@ -43,7 +43,7 @@ function Project() {
               projects.map((item)=>(
                 pathname === '/project' ?
                 <div onClick={()=>navigate(`/project/${item.name}`)} key={item.id} className='bg-white rounded-xl text-neutral-900 flex flex-col items-center justify-between p-3 hover:border-4 hover: border-gray-700 hover:outline hover: outline-amber-400 hover:outline-4 hover:transition-all hover:duration-200'>
-                <img className=' mb-3' src={process.env.PUBLIC_URL + item.img} alt="moamoa" />
+                <img className='mb-3 border-2 border-gray-200' src={process.env.PUBLIC_URL + item.img} alt="project" />
                 <div>
                   <h4 className='text-xl'>{item.name}</h4>
                   <p>{item.desc}</p>
