@@ -6,6 +6,7 @@ import ProjectList from './pages/ProjectList';
 import ProjectMoamoa from './pages/ProjectMoamoa';
 import ProjectObstacleFree from './pages/ProjectObstacleFree';
 import ProjectCashBook from './pages/ProjectCashBook';
+import ProjectPomodoro from './pages/ProjectPomodoro';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/project/MOAMOA' element={<ProjectMoamoa/>} />
         <Route path='/project/Obstacle-Free' element={<ProjectObstacleFree/>} />
         <Route path='/project/CashBook' element={<ProjectCashBook/>} />
+        <Route path='/project/Pomodoro' element={<ProjectPomodoro/>} />
       </Routes>
     </div>
   );

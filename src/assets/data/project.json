@@ -26,7 +26,7 @@
     },
     {
       "id": 5,
-      "name": "POMOODORO",
+      "name": "Pomodoro",
       "desc": "뽀모도로 타이머를 적용한 TodoList",
       "img" : "/pomodoro.png"
     },

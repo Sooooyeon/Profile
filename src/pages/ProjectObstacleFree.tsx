@@ -20,7 +20,7 @@ function ProjectObstacleFree() {
           <h2 className='pb-2.5 mb-10 font-extrabold border-b-2 border-indigo-400 text-lg'><span className='text-4xl pl-3'>Obstacle - Free</span></h2>
           <div className='flex gap-10 text-lg items-start'>
             <div className='w-1/2 flex flex-col gap-3'>
-              <img src={process.env.PUBLIC_URL + '/obstacle-free.png'} alt="moamoa" className='object-contain'/>
+              <img src={process.env.PUBLIC_URL + '/obstacle-free.png'} alt="obstacle-free" className='object-contain'/>
               <img src={of1} alt="옵프 주변장소 출력" />
               <img src={of2} alt="옵프 선택 지역 조회" />
               <img src={of3} alt="옵프 페이지네이션" />
@@ -47,7 +47,7 @@ function ProjectObstacleFree() {
                 <span className='text-amber-300 pr-2'>-</span>포커스 이동 접근
               </p>
               <h3><span className='text-indigo-400 pr-2'>•</span>트러블 슈팅</h3>
-              <p className='mb-3  pl-6'>
+              <p className='mb-3 pl-6'>
                 <span className='text-amber-300 pr-2'>nav bar focus가 되지 않는 문제</span><br/>
                 <span className='text-amber-300 pr-2'>-</span>문제 : tab키와 enter키로 nav bar에 접근할 수 없는 문제가 있었습니다.<br/>
                 <span className='text-amber-300 pr-2'>-</span>원인 : 페이지별로 적용되어 있던 js 파일을 하나로 통합 후 카테고리에 따라 클릭이벤트로 페이지를 이동하도록 설정 해 li태그 내의 a 태그를 제거한 것이 원인이었습니다. li태그는 기본적으로 포커스를 받을 수 있는 요소가 아니어서 접근이 불가능했습니다.<br/>
