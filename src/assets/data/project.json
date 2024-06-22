@@ -9,7 +9,7 @@
     {
       "id": 2,
       "name": "Resumates",
-      "desc": "이력서 템플릿으로 이력서를 작성할 수 있는 서비스",
+      "desc": "이력서 템플릿으로 이력서를 생성할 수 있는 서비스",
       "img" : "/resumates.png"
     },    
     {
@@ -35,12 +35,6 @@
       "name": "Fruits-Fruits",
       "desc": "HTML5, javascript를 사용한 미니게임",
       "img" : "/fruits-fuits.png"
-    },
-    {
-      "id": 7,
-      "name": "Moomyung",
-      "desc": "익명일기 서비스",
-      "img" : "/moomyung.png"
     }
   ]
 }
