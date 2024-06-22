@@ -7,6 +7,7 @@ import ProjectMoamoa from './pages/ProjectMoamoa';
 import ProjectObstacleFree from './pages/ProjectObstacleFree';
 import ProjectCashBook from './pages/ProjectCashBook';
 import ProjectPomodoro from './pages/ProjectPomodoro';
+import ProjectFruitsFruits from './pages/ProjectFruitsFruits';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/project/Obstacle-Free' element={<ProjectObstacleFree/>} />
         <Route path='/project/CashBook' element={<ProjectCashBook/>} />
         <Route path='/project/Pomodoro' element={<ProjectPomodoro/>} />
+        <Route path='/project/Fruits-Fruits' element={<ProjectFruitsFruits/>} />
       </Routes>
     </div>
   );

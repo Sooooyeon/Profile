@@ -24,13 +24,13 @@ function ProjectMoamoa() {
               <p className='text-sm mb-4'>프로젝트 기간 : 23.10.12 ~ 23.11.07 (약 4주)</p>
               <h3 className='mb-2'><span className='text-indigo-400 pr-2'>•</span>기술 스택</h3>
               <div className='flex flex-wrap gap-2 mb-3'>
-                <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-                <img  src="https://img.shields.io/badge/react-2D333B?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-                <img  src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=#5A29E4"/>
-                <img  src="https://img.shields.io/badge/Recoil-2D333B?style=for-the-badge&logo=react&logoColor=3578E5"/>
-                <img  src="https://img.shields.io/badge/Styled component-2D333B?style=for-the-badge&logo=styledcomponents&logoColor=#DB7093"/>
-                <img  src="https://img.shields.io/badge/prettier-2D333B?style=for-the-badge&logo=prettier&logoColor=#F7B93E"/>
-                <img  src="https://img.shields.io/badge/Eslint-2D333B?style=for-the-badge&logo=Eslint&logoColor=#4B32C3"/>
+                <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt='javascript'/>
+                <img  src="https://img.shields.io/badge/react-2D333B?style=for-the-badge&logo=react&logoColor=61DAFB" alt='react'/>
+                <img  src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=#5A29E4" alt='Axios'/>
+                <img  src="https://img.shields.io/badge/Recoil-2D333B?style=for-the-badge&logo=react&logoColor=3578E5" alt='Recoil'/>
+                <img  src="https://img.shields.io/badge/Styled component-2D333B?style=for-the-badge&logo=styledcomponents&logoColor=#DB7093" alt='styledcomponents'/>
+                <img  src="https://img.shields.io/badge/prettier-2D333B?style=for-the-badge&logo=prettier&logoColor=#F7B93E" alt='prettier'/>
+                <img  src="https://img.shields.io/badge/Eslint-2D333B?style=for-the-badge&logo=Eslint&logoColor=#4B32C3" alt='Eslint'/>
               </div>
               <h3><span className='text-indigo-400 pr-2'>•</span>구현 페이지</h3>
               <p className='mb-3 pl-6'>

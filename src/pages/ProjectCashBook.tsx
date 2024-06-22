@@ -40,7 +40,8 @@ function ProjectCashBook() {
               <p className='text-sm mb-4'>프로젝트 기간 : 24.05.27 ~ 24.05.29 (3일)</p>
               <h3 className='mb-2'><span className='text-indigo-400 pr-2'>•</span>기술 스택</h3>
               <div className='flex flex-wrap gap-2 mb-3'>
-                <img src="https://img.shields.io/badge/csharp-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/> <img src="https://img.shields.io/badge/dotnet-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+                <img src="https://img.shields.io/badge/csharp-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt='csharp'/>
+                <img src="https://img.shields.io/badge/dotnet-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt='dotnet'/>
               </div>
               <h3 className='mb-2'><span className='text-indigo-400 pr-2'>•</span>구현 기능</h3>
               <p className='mb-3 pl-6'>

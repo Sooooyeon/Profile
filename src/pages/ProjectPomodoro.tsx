@@ -31,9 +31,9 @@ function ProjectObstacleFree() {
               <p className='text-sm mb-4'>프로젝트 기간 : 24.03.21 ~ 24.03.22 (2일)</p>
               <h3 className='mb-2'><span className='text-indigo-400 pr-2'>•</span>기술 스택</h3>
               <div className='flex flex-wrap gap-2 mb-3'>
-                <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-                <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-                <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+                <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt='html5'/>
+                <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt='css3'/>
+                <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt='javascript'/>
               </div>
               <h3 className='mb-2'><span className='text-indigo-400 pr-2'>•</span>구현 기능</h3>
               <p className='mb-3 pl-6'>
