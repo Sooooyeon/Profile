@@ -29,7 +29,7 @@ function AboutMe() {
             <img src={location} className='w-16'  alt="위치" />
             <div>
               <h3 className='text-xl mt-3'>주소지</h3>
-              <p className='text-lg mt-1'>서욽특별시 금천구</p>
+              <p className='text-lg mt-1'>서울특별시 금천구</p>
             </div>
           </div>
           <div className='flex flex-col items-center'>
